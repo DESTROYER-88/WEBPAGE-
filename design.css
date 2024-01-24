@@ -1,0 +1,251 @@
+
+body{
+    margin: 0px;
+    font-family: cursive;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: inline-block;
+    margin:  15px; 
+    text-align: center;
+    color: black;
+    font-family: cursive,monospace,'Courier New', Courier, monospace;
+}
+nav img {
+    
+    align-self: center;
+
+}
+nav button{
+    width: 100px;
+    font-size: 15px;
+    font-family: cursive,monospace,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    color: #5ce7f1;
+    border-color: hsl(184, 84%, 65%);
+    background-color: transparent;
+    outline-color: #5ce7f1;
+    border-style: double;
+}
+nav button:hover{
+    background-color: rgb(219, 255, 205);
+}
+
+.top{
+    background-color:hsl(183, 72%, 89%) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.top button{
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    background-color: #5ce7f1;
+    color: white;
+
+}
+.top button:hover{
+    background-color: aquamarine;
+    color:black
+}
+.top1 button{
+    align-items: center;
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    background-color: #5ce7f1;
+    color: white;
+    gap: 30px;
+
+}
+.top1 nav img {
+    align-self: center;
+    width: 120px;
+
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: ' ';
+  }
+  nav li{
+    display: inline-block;
+    margin:  15px; 
+    text-align: center;
+    color: black;
+    font-family: cursive,monospace,'Courier New', Courier, monospace;}
+ .top2 h6{
+    color: rgb(9, 171, 171);
+    background-color: hsl(183, 60%, 82%);
+    font-family: cursive;
+ width: 50px;
+  height: 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  border-radius: 45%;
+  margin: 0;}
+
+  .text button{
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    background-color: #5ce7f1;
+    color: white;
+
+}
+.text button:hover{
+    background-color: aquamarine;
+    color:black
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+}
+
+.text {
+    flex: 1;
+    padding: 70px;
+    font-family: cursive;
+}
+
+.image {
+    flex: 1;
+
+}
+.neck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin: 0 auto; 
+    
+    max-width: 1000px; 
+}
+
+.a1, .a2, .a3, .a4, .a5, .a6 {
+    border: 2px transparent;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.a1 {
+    background-color: #FFF5F3;
+}
+
+.a2 {
+    background-color: #ECFFFF;
+}
+
+.a3 {
+    background-color: #FFF0F9;
+}
+
+.a4 {
+    background-color: #F6F4FF;
+}
+
+.a5 {
+    background-color: #FFF9E7;
+}
+
+.a6 {
+    background-color: #FFEDE4;
+}
+
+.topnav {
+
+    background-color: transparent;
+    overflow: hidden;
+    font-family: cursive;
+    justify-content: space-evenly;
+  }
+  
+  .topnav {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.topnav a {
+    display: inline-block;
+    background-color: transparent;
+    color: #060606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    margin-right: 10px;
+}
+
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .tick {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    justify-content: space-evenly;
+
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.b1, .b2, .b3 {
+    position: relative;
+    border: 2px transparent;
+    background-color: #FFEDE4;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.b1 button, .b2 button, .b3 button {
+    font-family: cursive;
+    width: 200px;
+    height: 40px;
+    background-color: #5ce7f1;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.b1 p, .b2 p, .b3 p {
+    margin: 0;
+}
+
+.tick button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.map {
+    clear: both;
+    text-align: center;
+  }
+  
+  .footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column {
+    width: 10%;
+  }
